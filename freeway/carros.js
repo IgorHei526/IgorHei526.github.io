@@ -13,7 +13,7 @@ function movimentaCarros(){
     //Carro chegou no fim do percurso
       if(xCarro[i] < -55){
     xCarro[i] = 605;
-    velocidadeCarro[i] = ceil(random(2,2));
+    velocidadeCarro[i] = ceil(random(2,9));
   }
     }else{
     //Carros para a direita
@@ -21,7 +21,7 @@ function movimentaCarros(){
       
   if(xCarro[i] > 605){
     xCarro[i] = -65;
-  velocidadeCarro[i] = ceil(random(2,2));
+  velocidadeCarro[i] = ceil(random(2,9));
       }//If
     }//Else
   }//For
