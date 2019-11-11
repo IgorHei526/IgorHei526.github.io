@@ -29,7 +29,7 @@ let placar = 0;
 
 
   function draw() {
-    if(frameCount <5)
+    if(frameCount < 50)
       telaInicial();
     else
       jogar();
